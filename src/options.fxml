@@ -21,8 +21,8 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="Show" mnemonicParsing="false" onAction="#show" text="Show Books" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
-            <Button fx:id="booklist" mnemonicParsing="false" onAction="#booklist" text="books list" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="Show" mnemonicParsing="false" onAction="#show" text="Better books" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="allbooks" mnemonicParsing="false" onAction="#allbooks" text="ALL Books" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
          </children>
       </GridPane>
       <Label layoutX="93.0" layoutY="20.0" text="WELCOME TO THE VELAX`S SHOP" textFill="#400af2" />
