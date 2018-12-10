@@ -7,12 +7,11 @@ I have used the scene builder programa to create the pages and the code was crea
 At firts we showed the principal pane whith the login section.
 
 # login section
-                                                                                       login code to show the pane
+                                                                                      
 
-                                                                                       ![](pictures/Captura5.PNG)
+                                                                                       login code
 
-
-![](pictures/Captura.PNG)                                                               
+![](pictures/Captura.PNG)                                                       ![](pictures/Captura.PNG)        
 
 
 
