@@ -22,4 +22,29 @@ In the second screan we show to costumers two posible functions:
 
 
 
+
+# choose section
+
+
 ![](pictures/Captura2.PNG)
+
+
+
+
+After thar the user have two options see the main books (books which have more views)
+
+
+![](pictures/Captura3.PNG)
+
+
+
+
+
+
+
+If we select one of the books we can view the book caracteristics.
+
+
+
+
+![](pictures/Captura4.PNG)
