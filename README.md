@@ -9,9 +9,8 @@ At firts we showed the principal pane whith the login section.
 # login section
                                                                                       
 
-                                                                                       login code
 
-![](pictures/Captura.PNG)                                                       ![](pictures/Captura.PNG)        
+![](pictures/Captura.PNG)                                                       ![](pictures/Captura5.PNG)        
 
 
 
