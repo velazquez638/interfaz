@@ -32,7 +32,7 @@ In the second screan we show to costumers two posible functions:
 
 
 
-After thar the user have two options see the main books (books which have more views)
+After that the user have two options see the main books (books which have more views)
 
 
 ![](pictures/Captura3.PNG)
