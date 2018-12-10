@@ -49,3 +49,19 @@ If we select one of the books we can view the book caracteristics.
 
 
 ![](pictures/Captura4.PNG)
+
+
+
+
+
+
+
+
+
+In the oter hand if we select the other option, we visualice all books with the diferents categories.
+
+
+
+
+![](pictures/Captura6.PNG)
+
