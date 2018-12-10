@@ -6,6 +6,8 @@ I have used the scene builder programa to create the pages and the code was crea
 
 At firts we showed the principal pane whith the login section.
 
+I add the code to show the login pane.
+
 # login section
                                                                                       
 
