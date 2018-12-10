@@ -12,7 +12,7 @@ At firts we showed the principal pane whith the login section.
 
 
 
-![](pictures/Captura.PNG)
+![](pictures/Captura.PNG)                                                                ![](pictures/Captura5.PNG)
 
 
 
