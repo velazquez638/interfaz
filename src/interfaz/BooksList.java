@@ -3,59 +3,172 @@ package interfaz;
 import java.util.ArrayList;
 import java.util.List;
 
-import javafx.fxml.FXML;
-
-
-
-
 public class BooksList {
 	
-	@FXML private BooksList listView;
+ static List<BooksList> Book_list2 = new ArrayList<BooksList>();
+ static List<BooksList> Book_list = new ArrayList<BooksList>();
+ static List<BooksList> Book_list3 = new ArrayList<BooksList>();
+	
+   
+	private String categorie;	
+	
+	private String name;
+	private String outhor;
+	private float price;
 	
 	
-	static String categorie;
-	static String name;
-	static String outhor;
-	static float price;
 	
-	
-	@SuppressWarnings("static-access")
-	public BooksList (String categorie_, String name_, String author_, float price_ ) {
-		
-		this.categorie=categorie_;
-		this.name=name_;
-		this.outhor=author_;
-		this.price=price_;
-		
+   protected BooksList(String categorie1, String name1, String outhor1, float price1) {
+	 categorie = categorie1;
+	 name = name1;
+	 outhor = outhor1;
+	 price = price1;
+	 
 	}
-	
-	static List<BooksList> Book_list = new ArrayList<BooksList>();
+   
+   static public String pepe() {
+   
+	    Book_list.add(new BooksList("comedi", "el pozo", "Pepe", 12));
+		Book_list.add(new BooksList("comedi", "La caja", "Laura", 40));
+		
+		Book_list.add(new BooksList("comedi", "Las aventuras de sergio", "Luis", 15));
+		Book_list.add(new BooksList("comedi", "El chungo de mosteles", "Manolas", 30));
+		
+		Book_list.add(new BooksList("comedi", "El arbitro julay", "Tomas", 52));
+		Book_list.add(new BooksList("comedi", "los niños del balon", "Velax", 20));
+		
+		
+	   String all = "";
+	   
+	   for (int i = 0; i <= Book_list.size() - 1; i++) {
+			
+			
+			
+			
+			all =  all  + "Categoria: "+BooksList.Book_list.get(i).categorie + "\n" 
+					+ "Nombre: " + BooksList.Book_list.get(i).name +" "
+					+ " Autor: " + BooksList.Book_list.get(i).outhor + " \n" + "Precio: " + BooksList.Book_list.get(i).price+ "\n" ;
+			                
+	      
+  }
+
+        return all;		
+	   
+   }
+   
 
 
-	@SuppressWarnings("static-access")
-	public static String pedro() {
+   
+	
+	static public String pedro() {
+		Book_list2.add(new BooksList("Horror", "El patio", "paco", 10));
+		Book_list2.add(new BooksList("Horror", "Casa", "Andres", 18));
 		
-		Book_list.add(new BooksList("Horror", "el patio", "paco", 22));
-		Book_list.add(new BooksList("Horror", "casa", "Andres", 16));
+		Book_list2.add(new BooksList("Horror", "El niño", "pco", 29));
+		Book_list2.add(new BooksList("Horror", "Los secretos de andres", "Ander", 56));
 		
-		Book_list.add(new BooksList("Actio", "el patio", "paco", 12));
-		Book_list.add(new BooksList("Actio", "el patio", "paco", 40));
-		
-		Book_list.add(new BooksList("Comedi", "el patio", "paco", 5));
-		Book_list.add(new BooksList("Comedi", "el patio", "paco", 15));
+		Book_list2.add(new BooksList("Horror","Las niñas", "paco", 35));
+		Book_list2.add(new BooksList("Horror", "Los niños de luis", "Sergio", 89));
 		
 		
-		String all=null;
+
+		String todo = "";
+		  for (int i = 0; i <= Book_list2.size() - 1; i++) {
+				
 		
-         for (int i = 0; i<=Book_list.size() -1; i++) {
-			
-			all=all + Book_list.get(i).categorie + "\n" + Book_list.get(i).name + "\n" + Book_list.get(i).outhor + "\n" + Book_list.get(i).price + "\n";
-			
-			
-		}
-		return all;
+						
+	
+					todo =  todo  + "Categoria: "+BooksList.Book_list2.get(i).categorie + "\n" 
+							+ "Nombre: " + BooksList.Book_list2.get(i).name +" "
+							+ " Autor: " + BooksList.Book_list2.get(i).outhor + " \n" + "Precio: " + BooksList.Book_list2.get(i).price+"€" + "\n" ;
+					                
+			      
+	  }
 		
+		return todo;		
 	}
+	
+	static public String ana() {
+		Book_list3.add(new BooksList("action", "El flautista", "Ana", 223));
+		Book_list3.add(new BooksList("action", "Cascos", "Borja", 196));
+		
+		Book_list3.add(new BooksList("action", "El bar", "Antonio", 25));
+		Book_list3.add(new BooksList("action", "Secretos", "Pepa", 18));
+		
+		Book_list3.add(new BooksList("action","El despacho", "Ronald", 92));
+		Book_list3.add(new BooksList("action", "La lata", "Yo", 79));
+		
+		
+
+		String to = "";
+		  for (int i = 0; i <= Book_list3.size() - 1; i++) {
+				
+		
+						
+	
+			  to =  to  + "Categoria: "+BooksList.Book_list3.get(i).categorie + "\n" 
+							+ "Nombre: " + BooksList.Book_list3.get(i).name +" "
+							+ " Autor: " + BooksList.Book_list3.get(i).outhor + " \n" + "Precio: " + BooksList.Book_list3.get(i).price+"€" + "\n" ;
+					                
+			      
+	  }
+		
+		return to;		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	public String getCategorie() {
+		return categorie;
+	}
+
+	public void setCategorie(String categorie) {
+		this.categorie = categorie;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getOuthor() {
+		return outhor;
+	}
+
+	public void setOuthor(String outhor) {
+		this.outhor = outhor;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+	
+	
+
 	
 }
+
+
+
+
+
+
+
+
+
+
+
 
